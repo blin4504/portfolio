@@ -1,7 +1,6 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Navbar() {
-  
   return (
     <>
       <div className="w-full h-20 top-0">
@@ -19,8 +18,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact">
-                  <p>Contact Me</p>
+                <Link href="/resume">
+                  <p>Resume</p>
                 </Link>
               </li>
             </ul>
@@ -28,5 +27,5 @@ export default function Navbar() {
         </div>
       </div>
     </>
-  )
+  );
 }
