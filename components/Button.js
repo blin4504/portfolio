@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Button({ href, label, children}) {
+export default function Button({ href, label, newTab, children}) {
+
   return (
     <a
       href={href}

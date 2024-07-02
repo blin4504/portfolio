@@ -24,7 +24,7 @@ export default function Home() {
       "label": "Email",
     },
     {
-      "href": "https://google.com",
+      "href": "/Brian_Resume.pdf",
       "icon": <IoDocumentText className="text-3xl" />,
       "label": "Download CV",
     },
