@@ -37,10 +37,10 @@ export default function Home() {
 
   return (
     <>
-      <div className="container mx-auto px-4 flex flex-col gap-y-5">
+      <div className="container mx-auto px-4 flex flex-col gap-y-8">
         <p className="text-5xl font-bold">Hi! I'm Brian Lin</p>
         <p className="text-2xl font-bold">About Me</p>
-        <div className="h-screen gap-6">
+        <div className="h-screen flex flex-col gap-y-6 w-3/4">
           <article>
             Hello! I am a computer science student at RIT with a passion for
             backend development and distributed systems. I enjoy self-teaching
