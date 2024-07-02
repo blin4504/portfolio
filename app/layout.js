@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: '400' });
 
 export const metadata = {
   title: "Brian Lin",
@@ -12,8 +12,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="overflow-hidden">
+    <html lang="en" className={mono.className}>
+      <body className="text-color_text text">
         <Navbar />
         {children}
         <Footer />
