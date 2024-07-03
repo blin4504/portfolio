@@ -13,13 +13,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link href="/projects">
+                <Link href="/#projects">
                   <p>Projects</p>
-                </Link>
-              </li>
-              <li>
-                <Link href="/resume">
-                  <p>Resume</p>
                 </Link>
               </li>
             </ul>

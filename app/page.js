@@ -1,9 +1,10 @@
-
-import links from "/app/data/Socials"
+import links from "app/data/Socials"
+import projects from "app/data/Projects"
 import Button from "@/components/Button";
-
+import ProjectCard from "@/components/ProjectCard";
 
 export default function Home() {
+
   return (
     <>
       <div className="container mx-auto px-4">
@@ -37,7 +38,9 @@ export default function Home() {
             Projects
           </div>
           <div className="flex flex-wrap justify-evenly gap-y-8">
-            
+            {projects.map((project, index) => (
+              <ProjectCard key={index} title={project.title} link={project.link} description={project.description} techs={project.techs} />
+            ))}
           </div>
         </div>
       </div>
