@@ -17,12 +17,6 @@ const projects = [
     description: "A fruit e-store web application built with a group of four to learn software engineering practices.",
     techs: ["Angular", "Java", "Typescript", "Spring Boot", "JUnit"]
   },
-  {
-    title: "Fruit E-Store",
-    link: "https://github.com/blin4504/estore",
-    description: "A fruit e-store web application built with a group of four to learn software engineering practices.",
-    techs: ["Angular", "Java", "Typescript", "Spring Boot", "JUnit"]
-  }
 ]
 
 export default projects
