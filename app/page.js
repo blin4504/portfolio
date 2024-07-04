@@ -12,10 +12,10 @@ export default function Home() {
         {/** About Me Section */}
         <div className="h-screen flex flex-col gap-y-8 mb-40 sm:mb-0">
           <div className="mt-40 text-3xl font-bold sm:text-5xl">Hi! I'm Brian Lin</div>
-          <div className="text-xl font-bold sm:text-2xl">About Me</div>
+          <div className="text-xl font-bold sm:text-2xl">Who Am I?</div>
           <div className="flex flex-col gap-y-6 w-full sm:w-3/4 flex-grow">
             <article className="text-sm sm:text-base">
-              Hello! I am a computer science student at RIT with a passion for
+              I am a computer science student at RIT with a passion for
               backend development and distributed systems. I enjoy self-teaching
               myself computer science and learning about new technologies. When
               I'm not coding, you can find me watching movies, hanging out with
