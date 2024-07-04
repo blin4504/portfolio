@@ -12,8 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={mono.className}>
-      <body className="text-color_text text">
-        {children}
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
+      <body className="min-h-screen text-color_text text flex flex-col">
+        <div className="flex-grow">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>
