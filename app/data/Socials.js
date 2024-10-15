@@ -19,7 +19,7 @@ const links = [
     "label": "Email",
   },
   {
-    "href": "/Brian_Resume.pdf",
+    "href": "/Brian_Lin_Resume.pdf",
     "icon": <IoDocumentText className="text-3xl" />,
     "label": "Download CV",
   },
