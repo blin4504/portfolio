@@ -27,7 +27,7 @@ const projects = [
     title: "RentBun",
     link: "https://rentbun.com/",
     description: "A simple website for users to share and find relets. Built it with a friend so we can find housing for when we come back from a co-op.",
-    techs: ["React.js", "PostgreSQL", "Firebase", "Java", "Spring Boot", "Docker"]
+    techs: ["React.js", "PostgreSQL", "Firebase", "Java", "Spring Boot", "Docker", "AWS S3"]
   },
 ]
 
