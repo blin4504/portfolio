@@ -9,7 +9,7 @@ const projects = [
     title: "LeetTutor",
     link: "https://devpost.com/software/leettutor",
     description: "Project for Microsoft's AI Classroom Hackathon. It is an AI Powered tool to generate quizzes based on students' notes.",
-    techs: ["React.js", "Azure AI", "CosmosDB", "Express.js", "Flask", "Python"],
+    techs: ["React.js", "Azure AI", "CosmosDB", "Express.js", "Flask", "Python", "Node.js"],
   },
   {
     title: "Fruit E-Store",
@@ -27,7 +27,7 @@ const projects = [
     title: "RentBun",
     link: "https://rentbun.com/",
     description: "A simple website for users to share and find relets. Built it with a friend so we can find housing for when we come back from a co-op.",
-    techs: ["React.js", "PostgreSQL", "Firebase", "Java", "Spring Boot", "Docker", "AWS S3"]
+    techs: ["React.js", "PostgreSQL", "Firebase", "Java", "Spring Boot", "Docker"]
   },
 ]
 
